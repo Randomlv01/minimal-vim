@@ -1,7 +1,7 @@
 set number
 syntax on
 "set relativenumber
-"set cursorline
+set cursorline
 set laststatus=2
 set ruler
 set statusline=%f
@@ -12,4 +12,5 @@ set mouse=a
 
 highlight LineNr ctermfg=Blue
 
-highlight CursorLineNr cterm=bold ctermfg=Yellow
+highlight CursorLine cterm=bold ctermbg=NONE "ctermbg=235
+highlight CursorLineNr cterm=bold ctermbg=NONE ctermfg=Yellow
